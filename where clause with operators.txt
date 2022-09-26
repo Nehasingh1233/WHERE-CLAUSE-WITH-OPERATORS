@@ -1,0 +1,45 @@
+--WHERE CLAUSE WITH OPERATORS
+select * FROM STUDENT where s_id=100
+
+SELECT *  
+FROM STUDENT  
+WHERE s_city = 'bangalore'  
+AND s_id =107; 
+
+SELECT *  
+FROM STUDENT  
+WHERE s_city = 'bangalore'  
+or s_id =105; 
+
+SELECT *  
+FROM STUDENT  
+where s_id>105;
+
+SELECT *  
+FROM STUDENT  
+where s_id<105;
+
+SELECT *  
+FROM STUDENT  
+where s_id>=105;
+
+SELECT *  
+FROM STUDENT  
+where s_id<=105;
+
+SELECT *  
+FROM STUDENT  
+where s_name like 'n%';
+
+SELECT *  
+FROM STUDENT  
+where s_name like  '%D';
+
+SELECT *  
+FROM STUDENT  
+where s_name not like '%n%';
+
+SELECT *  
+FROM STUDENT  
+where s_id not in (100,101,102);
+
